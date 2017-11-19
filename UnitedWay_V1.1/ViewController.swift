@@ -1,8 +1,15 @@
 import UIKit
+//import TwitterKit
 
-//I love Xcode
 
-class ViewController:  UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    // ListTimelineViewController.swift
+
+    
+       
+       
+
     
     let kCellHeight:CGFloat = 110.0
     var sampleTableView:UITableView!
@@ -21,12 +28,13 @@ class ViewController:  UIViewController, UITableViewDelegate, UITableViewDataSou
         
     }
    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-        
+     
         
         
         
@@ -58,6 +66,7 @@ class ViewController:  UIViewController, UITableViewDelegate, UITableViewDataSou
          navigationItem.titleView = imageView*/
         
     }
+  
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -76,7 +85,7 @@ class ViewController:  UIViewController, UITableViewDelegate, UITableViewDataSou
     }
     
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let CellIdentifierPortrait = "CellPortrait";
         let CellIdentifierLandscape = "CellLandscape";
@@ -122,7 +131,7 @@ class ViewController:  UIViewController, UITableViewDelegate, UITableViewDataSou
                 horizontalScrollView.addItem(button3)
                 
                 let button4 = UIButton(frame: CGRect.zero)
-                button4.setImage(UIImage(named: "sponsors.png"), for: UIControlState.normal)
+                button4.setImage(UIImage(named: "partners.png"), for: UIControlState.normal)
                 button4.addTarget(self, action: #selector(button4Action), for: .touchUpInside)
                 horizontalScrollView.addItem(button4)
                 
@@ -153,7 +162,7 @@ class ViewController:  UIViewController, UITableViewDelegate, UITableViewDataSou
     }
     
     
-    func tableView(_ sampletableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+     func tableView(_ sampletableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         cell.backgroundColor = UIColor.clear
     }
     
@@ -165,36 +174,36 @@ class ViewController:  UIViewController, UITableViewDelegate, UITableViewDataSou
     
     @objc func button2Action(sender: UIButton!) {
      
-     performSegue(withIdentifier: "contactusSegue", sender: self)
+     performSegue(withIdentifier: "calendarSegue", sender: self)
      }
      
      @objc func button3Action(sender: UIButton!) {
      
-     performSegue(withIdentifier: "calendarSegue", sender: self)
+     performSegue(withIdentifier: "volunteerSegue", sender: self)
      }
      
      @objc func button4Action(sender: UIButton!) {
      
-     performSegue(withIdentifier: "volunteerSegue", sender: self)
+     performSegue(withIdentifier: "partnersSegue", sender: self)
      }
      
      @objc func button5Action(sender: UIButton!) {
      
-     performSegue(withIdentifier: "aboutusSegue", sender: self)
+     performSegue(withIdentifier: "contactusSegue", sender: self)
      }
     
     @objc func button6Action(sender: UIButton!) {
         
-        performSegue(withIdentifier: "partnersSegue", sender: self)
+        performSegue(withIdentifier: "aboutusSegue", sender: self)
     }
     
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return 1
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
+     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
     {
         return kCellHeight
     }

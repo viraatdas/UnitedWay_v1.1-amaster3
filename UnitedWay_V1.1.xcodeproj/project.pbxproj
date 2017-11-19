@@ -21,7 +21,14 @@
 		0DF6BD451FABA62D004EBF64 /* sbContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6BD441FABA62D004EBF64 /* sbContactUs.swift */; };
 		0DF6BD471FABA64B004EBF64 /* sbAboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6BD461FABA64B004EBF64 /* sbAboutUs.swift */; };
 		0DF6BD491FABA681004EBF64 /* sbDonate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6BD481FABA681004EBF64 /* sbDonate.swift */; };
+		10540432DBB84559F3528630 /* Pods_UnitedWay_V1_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362C51A94D7EF50CF23E4F36 /* Pods_UnitedWay_V1_1UITests.framework */; };
+		4B4414E41FBFA89C00EC5C98 /* TableCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4414E31FBFA89C00EC5C98 /* TableCell2.swift */; };
+		4B4756BC1FBFECDB0004298F /* Partners.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B4756BB1FBFECDB0004298F /* Partners.txt */; };
 		4B547DF01FACF20C00F92D79 /* ASHorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B547DEF1FACF20C00F92D79 /* ASHorizontalScrollView.swift */; };
+		4BA28CE21FC0E64D0081C778 /* partner_images.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4BA28CE11FC0E64D0081C778 /* partner_images.txt */; };
+		4BD5EE271FBF687E00F05FC3 /* ListTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD5EE261FBF687E00F05FC3 /* ListTimelineViewController.swift */; };
+		71575E19B65BEA368E886B01 /* Pods_UnitedWay_V1_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0741A9F7C14DCF51A6897746 /* Pods_UnitedWay_V1_1Tests.framework */; };
+		A24B5F58D48F09AFC64853CA /* Pods_UnitedWay_V1_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E1DB5D550ECD48CB3A2BB3 /* Pods_UnitedWay_V1_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0741A9F7C14DCF51A6897746 /* Pods_UnitedWay_V1_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitedWay_V1_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF599681FA2679A00895BAC /* UnitedWay_V1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitedWay_V1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF5996B1FA2679A00895BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DF5996D1FA2679A00895BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +70,19 @@
 		0DF6BD441FABA62D004EBF64 /* sbContactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sbContactUs.swift; sourceTree = "<group>"; };
 		0DF6BD461FABA64B004EBF64 /* sbAboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sbAboutUs.swift; sourceTree = "<group>"; };
 		0DF6BD481FABA681004EBF64 /* sbDonate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sbDonate.swift; sourceTree = "<group>"; };
+		0ED002F155A1DC5C0A7FBD88 /* Pods-UnitedWay_V1.1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitedWay_V1.1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitedWay_V1.1Tests/Pods-UnitedWay_V1.1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		15E1DB5D550ECD48CB3A2BB3 /* Pods_UnitedWay_V1_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitedWay_V1_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362C51A94D7EF50CF23E4F36 /* Pods_UnitedWay_V1_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitedWay_V1_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4414E31FBFA89C00EC5C98 /* TableCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableCell2.swift; path = "../../../Library/Autosave Information/MHSSchool app v1.3/MHSSchool app v1.3/TableCell2.swift"; sourceTree = "<group>"; };
+		4B4756BB1FBFECDB0004298F /* Partners.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Partners.txt; path = ../../Partners.txt; sourceTree = "<group>"; };
 		4B547DEF1FACF20C00F92D79 /* ASHorizontalScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASHorizontalScrollView.swift; sourceTree = "<group>"; };
+		4BA28CE11FC0E64D0081C778 /* partner_images.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = partner_images.txt; path = ../../partner_images.txt; sourceTree = "<group>"; };
+		4BD5EE261FBF687E00F05FC3 /* ListTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTimelineViewController.swift; sourceTree = "<group>"; };
+		886D71298EC6C3C90AC52DB3 /* Pods-UnitedWay_V1.1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitedWay_V1.1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitedWay_V1.1UITests/Pods-UnitedWay_V1.1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E9B6F223F667EBA3503CE73 /* Pods-UnitedWay_V1.1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitedWay_V1.1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitedWay_V1.1UITests/Pods-UnitedWay_V1.1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		90D2314DEEB01565CB812F22 /* Pods-UnitedWay_V1.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitedWay_V1.1.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitedWay_V1.1/Pods-UnitedWay_V1.1.release.xcconfig"; sourceTree = "<group>"; };
+		9D029377E26E3544AD7EA57C /* Pods-UnitedWay_V1.1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitedWay_V1.1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitedWay_V1.1Tests/Pods-UnitedWay_V1.1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E39EF12EEA76D82D474DC48C /* Pods-UnitedWay_V1.1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitedWay_V1.1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitedWay_V1.1/Pods-UnitedWay_V1.1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24B5F58D48F09AFC64853CA /* Pods_UnitedWay_V1_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71575E19B65BEA368E886B01 /* Pods_UnitedWay_V1_1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10540432DBB84559F3528630 /* Pods_UnitedWay_V1_1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +120,8 @@
 				0DF5997F1FA2679B00895BAC /* UnitedWay_V1.1Tests */,
 				0DF5998A1FA2679B00895BAC /* UnitedWay_V1.1UITests */,
 				0DF599691FA2679A00895BAC /* Products */,
+				FF007F3B6B05FCBA292F35AA /* Pods */,
+				59D32A5F36122915BBDB1488 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,8 +143,11 @@
 				0DF5996D1FA2679A00895BAC /* ViewController.swift */,
 				0DF6BD3C1FABA5D1004EBF64 /* sbHomepage.swift */,
 				0DF6BD3E1FABA5F0004EBF64 /* sbCalendar.swift */,
+				4B4756BB1FBFECDB0004298F /* Partners.txt */,
+				4BA28CE11FC0E64D0081C778 /* partner_images.txt */,
 				0DF6BD401FABA601004EBF64 /* sbVolunteer.swift */,
 				0DF6BD421FABA61A004EBF64 /* sbPartners.swift */,
+				4B4414E31FBFA89C00EC5C98 /* TableCell2.swift */,
 				0DF6BD441FABA62D004EBF64 /* sbContactUs.swift */,
 				0DF6BD461FABA64B004EBF64 /* sbAboutUs.swift */,
 				0DF6BD481FABA681004EBF64 /* sbDonate.swift */,
@@ -127,6 +155,7 @@
 				0DF599741FA2679A00895BAC /* LaunchScreen.storyboard */,
 				4B547DEF1FACF20C00F92D79 /* ASHorizontalScrollView.swift */,
 				0DF599771FA2679A00895BAC /* Info.plist */,
+				4BD5EE261FBF687E00F05FC3 /* ListTimelineViewController.swift */,
 			);
 			path = UnitedWay_V1.1;
 			sourceTree = "<group>";
@@ -149,6 +178,29 @@
 			path = UnitedWay_V1.1UITests;
 			sourceTree = "<group>";
 		};
+		59D32A5F36122915BBDB1488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15E1DB5D550ECD48CB3A2BB3 /* Pods_UnitedWay_V1_1.framework */,
+				0741A9F7C14DCF51A6897746 /* Pods_UnitedWay_V1_1Tests.framework */,
+				362C51A94D7EF50CF23E4F36 /* Pods_UnitedWay_V1_1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF007F3B6B05FCBA292F35AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E39EF12EEA76D82D474DC48C /* Pods-UnitedWay_V1.1.debug.xcconfig */,
+				90D2314DEEB01565CB812F22 /* Pods-UnitedWay_V1.1.release.xcconfig */,
+				0ED002F155A1DC5C0A7FBD88 /* Pods-UnitedWay_V1.1Tests.debug.xcconfig */,
+				9D029377E26E3544AD7EA57C /* Pods-UnitedWay_V1.1Tests.release.xcconfig */,
+				886D71298EC6C3C90AC52DB3 /* Pods-UnitedWay_V1.1UITests.debug.xcconfig */,
+				8E9B6F223F667EBA3503CE73 /* Pods-UnitedWay_V1.1UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DF599901FA2679B00895BAC /* Build configuration list for PBXNativeTarget "UnitedWay_V1.1" */;
 			buildPhases = (
+				19430D0777A09C76F50B8116 /* [CP] Check Pods Manifest.lock */,
 				0DF599641FA2679A00895BAC /* Sources */,
 				0DF599651FA2679A00895BAC /* Frameworks */,
 				0DF599661FA2679A00895BAC /* Resources */,
+				FE3BDA8E7920AD70C3E839CB /* [CP] Embed Pods Frameworks */,
+				4A3AAA0C911DB98FCB8F9FA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DF599931FA2679B00895BAC /* Build configuration list for PBXNativeTarget "UnitedWay_V1.1Tests" */;
 			buildPhases = (
+				FE89EAE33FD348DA421D2A23 /* [CP] Check Pods Manifest.lock */,
 				0DF599781FA2679B00895BAC /* Sources */,
 				0DF599791FA2679B00895BAC /* Frameworks */,
 				0DF5997A1FA2679B00895BAC /* Resources */,
+				11158041DBC9B74D7714AB1F /* [CP] Embed Pods Frameworks */,
+				B6511097926A9E7BAF2F23F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DF599961FA2679B00895BAC /* Build configuration list for PBXNativeTarget "UnitedWay_V1.1UITests" */;
 			buildPhases = (
+				235CDF34C17A4C03DCD0122D /* [CP] Check Pods Manifest.lock */,
 				0DF599831FA2679B00895BAC /* Sources */,
 				0DF599841FA2679B00895BAC /* Frameworks */,
 				0DF599851FA2679B00895BAC /* Resources */,
+				8667E22EE5CB95DB8CF3BC7F /* [CP] Embed Pods Frameworks */,
+				DAA8A3C2BB0134444986AD5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,8 +318,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DF599761FA2679A00895BAC /* LaunchScreen.storyboard in Resources */,
+				4B4756BC1FBFECDB0004298F /* Partners.txt in Resources */,
 				0DF599731FA2679A00895BAC /* Assets.xcassets in Resources */,
 				0DF599711FA2679A00895BAC /* Main.storyboard in Resources */,
+				4BA28CE21FC0E64D0081C778 /* partner_images.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +341,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11158041DBC9B74D7714AB1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitedWay_V1.1Tests/Pods-UnitedWay_V1.1Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19430D0777A09C76F50B8116 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnitedWay_V1.1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		235CDF34C17A4C03DCD0122D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnitedWay_V1.1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A3AAA0C911DB98FCB8F9FA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UnitedWay_V1.1/Pods-UnitedWay_V1.1-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitedWay_V1.1/Pods-UnitedWay_V1.1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8667E22EE5CB95DB8CF3BC7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitedWay_V1.1UITests/Pods-UnitedWay_V1.1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6511097926A9E7BAF2F23F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitedWay_V1.1Tests/Pods-UnitedWay_V1.1Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA8A3C2BB0134444986AD5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitedWay_V1.1UITests/Pods-UnitedWay_V1.1UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE3BDA8E7920AD70C3E839CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitedWay_V1.1/Pods-UnitedWay_V1.1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE89EAE33FD348DA421D2A23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnitedWay_V1.1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0DF599641FA2679A00895BAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD5EE271FBF687E00F05FC3 /* ListTimelineViewController.swift in Sources */,
+				4B4414E41FBFA89C00EC5C98 /* TableCell2.swift in Sources */,
 				0DF6BD3D1FABA5D1004EBF64 /* sbHomepage.swift in Sources */,
 				0DF6BD491FABA681004EBF64 /* sbDonate.swift in Sources */,
 				0DF5996E1FA2679A00895BAC /* ViewController.swift in Sources */,
@@ -456,12 +672,14 @@
 		};
 		0DF599911FA2679B00895BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39EF12EEA76D82D474DC48C /* Pods-UnitedWay_V1.1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3C4383262W;
 				INFOPLIST_FILE = UnitedWay_V1.1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "c4c.UnitedWay-V1-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasco.unitedway.DasCO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,12 +688,14 @@
 		};
 		0DF599921FA2679B00895BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D2314DEEB01565CB812F22 /* Pods-UnitedWay_V1.1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3C4383262W;
 				INFOPLIST_FILE = UnitedWay_V1.1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "c4c.UnitedWay-V1-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasco.unitedway.DasCO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,6 +704,7 @@
 		};
 		0DF599941FA2679B00895BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED002F155A1DC5C0A7FBD88 /* Pods-UnitedWay_V1.1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +721,7 @@
 		};
 		0DF599951FA2679B00895BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D029377E26E3544AD7EA57C /* Pods-UnitedWay_V1.1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +738,7 @@
 		};
 		0DF599971FA2679B00895BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886D71298EC6C3C90AC52DB3 /* Pods-UnitedWay_V1.1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +754,7 @@
 		};
 		0DF599981FA2679B00895BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E9B6F223F667EBA3503CE73 /* Pods-UnitedWay_V1.1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

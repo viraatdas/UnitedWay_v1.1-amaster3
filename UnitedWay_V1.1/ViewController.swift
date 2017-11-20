@@ -24,18 +24,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBAction func donateAction(_ sender: Any) {
         
-        performSegue(withIdentifier: "donateSegue", sender: self)
+        UIApplication.shared.openURL(URL(string: "https://unitedwaycwv.org/givenow.html")!)
         
     }
    
-
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
      
+
         
+        
+        
+      
         
         
         

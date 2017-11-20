@@ -22,10 +22,10 @@
 		0DF6BD471FABA64B004EBF64 /* sbAboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6BD461FABA64B004EBF64 /* sbAboutUs.swift */; };
 		0DF6BD491FABA681004EBF64 /* sbDonate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6BD481FABA681004EBF64 /* sbDonate.swift */; };
 		10540432DBB84559F3528630 /* Pods_UnitedWay_V1_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362C51A94D7EF50CF23E4F36 /* Pods_UnitedWay_V1_1UITests.framework */; };
-		4B4414E41FBFA89C00EC5C98 /* TableCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4414E31FBFA89C00EC5C98 /* TableCell2.swift */; };
-		4B4756BC1FBFECDB0004298F /* Partners.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B4756BB1FBFECDB0004298F /* Partners.txt */; };
 		4B547DF01FACF20C00F92D79 /* ASHorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B547DEF1FACF20C00F92D79 /* ASHorizontalScrollView.swift */; };
-		4BA28CE21FC0E64D0081C778 /* partner_images.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4BA28CE11FC0E64D0081C778 /* partner_images.txt */; };
+		4BAF81851FC3497B00E6FA32 /* partner_images.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4BAF81831FC3497B00E6FA32 /* partner_images.txt */; };
+		4BAF81861FC3497B00E6FA32 /* Partners.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4BAF81841FC3497B00E6FA32 /* Partners.txt */; };
+		4BAF81881FC3498100E6FA32 /* TableCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF81871FC3498100E6FA32 /* TableCell2.swift */; };
 		4BD5EE271FBF687E00F05FC3 /* ListTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD5EE261FBF687E00F05FC3 /* ListTimelineViewController.swift */; };
 		71575E19B65BEA368E886B01 /* Pods_UnitedWay_V1_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0741A9F7C14DCF51A6897746 /* Pods_UnitedWay_V1_1Tests.framework */; };
 		A24B5F58D48F09AFC64853CA /* Pods_UnitedWay_V1_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E1DB5D550ECD48CB3A2BB3 /* Pods_UnitedWay_V1_1.framework */; };
@@ -73,10 +73,10 @@
 		0ED002F155A1DC5C0A7FBD88 /* Pods-UnitedWay_V1.1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitedWay_V1.1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitedWay_V1.1Tests/Pods-UnitedWay_V1.1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		15E1DB5D550ECD48CB3A2BB3 /* Pods_UnitedWay_V1_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitedWay_V1_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		362C51A94D7EF50CF23E4F36 /* Pods_UnitedWay_V1_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitedWay_V1_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B4414E31FBFA89C00EC5C98 /* TableCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableCell2.swift; path = "../../../Library/Autosave Information/MHSSchool app v1.3/MHSSchool app v1.3/TableCell2.swift"; sourceTree = "<group>"; };
-		4B4756BB1FBFECDB0004298F /* Partners.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Partners.txt; path = ../../Partners.txt; sourceTree = "<group>"; };
 		4B547DEF1FACF20C00F92D79 /* ASHorizontalScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASHorizontalScrollView.swift; sourceTree = "<group>"; };
-		4BA28CE11FC0E64D0081C778 /* partner_images.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = partner_images.txt; path = ../../partner_images.txt; sourceTree = "<group>"; };
+		4BAF81831FC3497B00E6FA32 /* partner_images.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = partner_images.txt; sourceTree = "<group>"; };
+		4BAF81841FC3497B00E6FA32 /* Partners.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Partners.txt; sourceTree = "<group>"; };
+		4BAF81871FC3498100E6FA32 /* TableCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell2.swift; sourceTree = "<group>"; };
 		4BD5EE261FBF687E00F05FC3 /* ListTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTimelineViewController.swift; sourceTree = "<group>"; };
 		886D71298EC6C3C90AC52DB3 /* Pods-UnitedWay_V1.1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitedWay_V1.1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitedWay_V1.1UITests/Pods-UnitedWay_V1.1UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E9B6F223F667EBA3503CE73 /* Pods-UnitedWay_V1.1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitedWay_V1.1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitedWay_V1.1UITests/Pods-UnitedWay_V1.1UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,14 +143,14 @@
 				0DF5996D1FA2679A00895BAC /* ViewController.swift */,
 				0DF6BD3C1FABA5D1004EBF64 /* sbHomepage.swift */,
 				0DF6BD3E1FABA5F0004EBF64 /* sbCalendar.swift */,
-				4B4756BB1FBFECDB0004298F /* Partners.txt */,
-				4BA28CE11FC0E64D0081C778 /* partner_images.txt */,
 				0DF6BD401FABA601004EBF64 /* sbVolunteer.swift */,
 				0DF6BD421FABA61A004EBF64 /* sbPartners.swift */,
-				4B4414E31FBFA89C00EC5C98 /* TableCell2.swift */,
 				0DF6BD441FABA62D004EBF64 /* sbContactUs.swift */,
 				0DF6BD461FABA64B004EBF64 /* sbAboutUs.swift */,
+				4BAF81831FC3497B00E6FA32 /* partner_images.txt */,
+				4BAF81841FC3497B00E6FA32 /* Partners.txt */,
 				0DF6BD481FABA681004EBF64 /* sbDonate.swift */,
+				4BAF81871FC3498100E6FA32 /* TableCell2.swift */,
 				0DF599721FA2679A00895BAC /* Assets.xcassets */,
 				0DF599741FA2679A00895BAC /* LaunchScreen.storyboard */,
 				4B547DEF1FACF20C00F92D79 /* ASHorizontalScrollView.swift */,
@@ -318,10 +318,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DF599761FA2679A00895BAC /* LaunchScreen.storyboard in Resources */,
-				4B4756BC1FBFECDB0004298F /* Partners.txt in Resources */,
+				4BAF81861FC3497B00E6FA32 /* Partners.txt in Resources */,
+				4BAF81851FC3497B00E6FA32 /* partner_images.txt in Resources */,
 				0DF599731FA2679A00895BAC /* Assets.xcassets in Resources */,
 				0DF599711FA2679A00895BAC /* Main.storyboard in Resources */,
-				4BA28CE21FC0E64D0081C778 /* partner_images.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,7 +498,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD5EE271FBF687E00F05FC3 /* ListTimelineViewController.swift in Sources */,
-				4B4414E41FBFA89C00EC5C98 /* TableCell2.swift in Sources */,
+				4BAF81881FC3498100E6FA32 /* TableCell2.swift in Sources */,
 				0DF6BD3D1FABA5D1004EBF64 /* sbHomepage.swift in Sources */,
 				0DF6BD491FABA681004EBF64 /* sbDonate.swift in Sources */,
 				0DF5996E1FA2679A00895BAC /* ViewController.swift in Sources */,
